@@ -10,7 +10,7 @@ services:
     environment:
       - POSTGRES_PASSWORD=S3cret
       - POSTGRES_USER=medin
-      - POSTGRES_DB=medin
+      - POSTGRES_DB=medusa-EC2f
   app:
     build:
       context: .
